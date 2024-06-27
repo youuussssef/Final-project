@@ -1,0 +1,161 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #1a1a1a;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+.tournament-images {
+    display: flex;
+    width: 1200px;
+    justify-content:space-between;
+    margin-top: 1em;
+    align-items: stretch;
+}
+#img1{
+    width: 50%;
+}
+.tournament-images img {
+    max-width: 48%; /* Adjust width as needed */
+    height: auto;
+    border-radius: 8px;
+    border: 2px solid #ff4500;
+    transition: border-color 0.3s ease;
+}
+
+.tournament-images img:hover {
+    border-color: #fff;
+}
+
+header {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+    border-bottom: 4px solid #ff4500;
+}
+
+header h1 {
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: 0.1em;
+    font-size: 2.5em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    margin: 1em 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: #ff4500;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #fff;
+}
+
+section {
+    padding: 2em;
+    margin: 1em;
+    background-color: #2a2a2a;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+section h2 {
+    border-bottom: 2px solid #ff4500;
+    padding-bottom: 0.5em;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2em;
+    color: #ff4500;
+}
+
+article {
+    margin: 1em 0;
+    padding: 1em;
+    background-color: #333;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+article:hover {
+    transform: scale(1.05);
+}
+
+article img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1em 0;
+    border-radius: 8px;
+    border: 2px solid #ff4500;
+    transition: border-color 0.3s ease;
+}
+
+article img:hover {
+    border-color: #fff;
+}
+
+footer {
+    background-color: #1a1a1a;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    border-top: 4px solid #ff4500;
+}
+.game-release {
+    display: flex;
+    align-items: center;
+    margin: 1em 0;
+}
+
+.game-img {
+    max-width: 100px;
+    margin-right: 1em;
+    border-radius: 8px;
+    border: 2px solid #ff4500;
+    transition: border-color 0.3s ease;
+}
+
+video {
+    display: block;
+    margin: 1em auto;
+    max-width: 100%;
+    border-radius: 8px;
+    border: 2px solid #ff4500;
+}
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 0.5em 0;
+    }
+
+    nav ul li a {
+        font-size: 1em;
+    }
+
+    section {
+        margin: 0.5em;
+        padding: 1em;
+    }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto:wght@400;700&display=swap');
